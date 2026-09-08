@@ -13,6 +13,8 @@ The goal of this TryHackMe account is mainly **hands-on cybersecurity practice**
        width="100%">
 </p>
 
+https://tryhackme.com/p/artiomcyber?utm_campaign=social_share&utm_medium=social&utm_content=profile&utm_source=copy&sharerId=69d6b958fe2abf47f0c14253
+
 > Screenshot — 8th of September 2026.
 
 ## ✅ Completed TryHackMe Rooms — 75
