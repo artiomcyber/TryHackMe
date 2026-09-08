@@ -67,7 +67,7 @@ Group type: Security
 Membership type: Assigned
 ```
 
-![Security Group created](./screenshots/01-group-created.png)
+![Security Group created](./Security%20Group%20created.png)
 
 The exercise reinforced the basic group-based access model:
 
@@ -88,7 +88,7 @@ Created two fictional internal Microsoft Entra identities:
 - **Major Alex**
 - **Sergeant Bill**
 
-![Users created](./screenshots/02-users-created.png)
+![Users created](./Users%20created.png)
 
 This provided practical experience with basic cloud identity provisioning.
 
@@ -98,7 +98,7 @@ This provided practical experience with basic cloud identity provisioning.
 
 Added both users as direct members of the Security Group.
 
-![Group members](./screenshots/03-group-members.png)
+![Group members](./Group%20members.png)
 
 Managing access through groups is more scalable than assigning permissions separately to every user.
 
@@ -112,7 +112,7 @@ Microsoft Entra placed the account into the recoverable **Deleted users** state 
 
 Sergeant Bill was then successfully restored.
 
-![User restored](./screenshots/04-user-restored.png)
+![User restored](./User%20restored.png)
 
 The exercise demonstrated the user lifecycle:
 
@@ -134,7 +134,7 @@ Active
 
 Major Alex was successfully assigned as owner of the Security Group.
 
-![Group owner added](./screenshots/05-owner-added.png)
+![Group owner added](./Group%20owner%20added.png)
 
 This demonstrated delegated administration:
 
@@ -154,7 +154,7 @@ The next task required removing Major Alex as group owner.
 
 Because Major Alex was the group's only owner, the operation was rejected and Microsoft Entra reported that the group must retain at least one owner.
 
-![Owner removal blocked](./screenshots/06-owner-removal-blocked.png)
+![Owner removal blocked](./Owner%20removal%20blocked.png)
 
 This was a useful real-world result.
 
@@ -178,7 +178,7 @@ While still signed in as **User Administrator**, I attempted to assign a Microso
 
 The role-assignment capability was unavailable.
 
-![Directory role assignment restricted](./screenshots/07-role-assignment-blocked.png)
+![Directory role assignment restricted](./Directory%20role%20assignment%20restricted.png)
 
 This demonstrated least privilege and separation of duties.
 
@@ -201,7 +201,7 @@ A normal user administrator should not be able to freely elevate another identit
 
 Sergeant Bill's password was successfully reset.
 
-![Password reset successful](./screenshots/08-password-reset.png)
+![Password reset successful](./Password%20reset%20successful.png)
 
 This showed an important permission distinction:
 
@@ -223,7 +223,7 @@ I attempted to review Sergeant Bill's sign-in activity while operating as User A
 
 Access was denied with an authorization error.
 
-![Sign-in logs access denied](./screenshots/09-signin-logs-denied.png)
+![Sign-in logs access denied](./Sign-in%20logs%20access%20denied.png)
 
 This demonstrated separation between identity administration and security monitoring:
 
@@ -245,7 +245,7 @@ Investigate sign-in telemetry
 
 Major Alex's account was disabled as part of the simulated security scenario.
 
-![Account disabled](./screenshots/10-account-disabled.png)
+![Account disabled](./Account%20disabled.png)
 
 Disabling and deleting an account are different actions:
 
@@ -271,9 +271,9 @@ After completing the exercises, the temporary objects were removed.
 - Sergeant Bill deleted
 - temporary exercise objects verified as removed
 
-![Group cleanup](./screenshots/11-group-cleanup.png)
+![Group cleanup](./Group%20cleanup.png)
 
-![User cleanup](./screenshots/12-user-cleanup.png)
+![User cleanup](./User%20cleanup.png)
 
 Cleanup is an important part of lab administration:
 
@@ -395,4 +395,4 @@ Restore or permanently remove
 
 The **MS Entra ID: Introduction** room was successfully completed.
 
-![TryHackMe room completed](./screenshots/13-room-completed.png)
+![TryHackMe room completed](./TryHackMe%20room%20completed.png)
