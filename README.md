@@ -8,16 +8,40 @@ The goal of this TryHackMe account is mainly **hands-on cybersecurity practice**
 # 📊 Current TryHackMe Progress
 
 <p align="center">
-  <img src="./TryHackMe%20Account.png"
+  <img src="./THM%20profile%2014.09.2026.png"
        alt="TryHackMe profile progress"
        width="100%">
 </p>
 
 https://tryhackme.com/p/artiomcyber?utm_campaign=social_share&utm_medium=social&utm_content=profile&utm_source=copy&sharerId=69d6b958fe2abf47f0c14253
 
-> Screenshot — 8th of September 2026.
+> Screenshot — 14th of September 2026.
 
-## ✅ Completed TryHackMe Rooms — 75
+## ✅ Completed TryHackMe Rooms — 83
+
+### Microsoft Entra ID
+
+The Microsoft Entra ID series has become one of the main practical areas of this portfolio.
+
+1. **MS Entra ID: Introduction**
+2. **MS Entra ID: Identities**
+3. **MS Entra ID: Hybrid Identities**
+4. **MS Entra ID: External ID**
+5. **MS Entra ID: Zero Trust**
+6. **MS Entra ID: Authentication**
+7. **MS Entra ID: Protection**
+8. **MS Entra ID: Governance**
+
+Selected Entra rooms were expanded beyond the TryHackMe walkthroughs and recreated in my own Microsoft Entra tenant to practise administration, least privilege, authentication, Conditional Access, external identities, Identity Protection and governance in a real environment.
+
+Full write-ups and evidence are available under:
+
+📁 [`MS-Entra-ID`](./MS-Entra-ID/)
+---
+
+### Security Engineering
+
+1. Security Engineer Intro
 
 ### Web, Networking & Infrastructure
 
@@ -116,7 +140,3 @@ https://tryhackme.com/p/artiomcyber?utm_campaign=social_share&utm_medium=social&
 72. Phishing Prevention
 73. The Greenholt Phish
 74. Snapped Phish-ing Line
-
-### Microsoft Entra ID
-
-75. **MS Entra ID: Introduction** ✅
