@@ -1,142 +1,50 @@
-# TryHackMe Cybersecurity Labs
+# TryHackMe — Cybersecurity and Identity Security Labs
 
-Hands-on cybersecurity learning, labs, and projects completed through **TryHackMe**, with selected exercises recreated and documented in dedicated lab environments.
+**Identity & Access Management · Active Directory · Security operations · Phishing analysis · Networking**
 
-The goal of this TryHackMe account is mainly **hands-on cybersecurity practice**, troubleshooting failures, understanding security controls in practice, and documenting the results.
+A practical record of TryHackMe training, with an emphasis on understanding security controls and recreating selected exercises independently where tools and licenses permit.
 
----
-# 📊 Current TryHackMe Progress
+**Progress snapshot:** 83 completed rooms as recorded on 14 September 2026. For current activity, see the [live TryHackMe profile](https://tryhackme.com/p/artiomcyber). The [dated screenshot](THM%20profile%2014.09.2026.png) and [full historical room catalogue](ROOMS.md) are preserved.
 
-<p align="center">
-  <img src="./THM%20profile%2014.09.2026.png"
-       alt="TryHackMe profile progress"
-       width="100%">
-</p>
+## Featured track — Microsoft Entra ID
 
-https://tryhackme.com/p/artiomcyber?utm_campaign=social_share&utm_medium=social&utm_content=profile&utm_source=copy&sharerId=69d6b958fe2abf47f0c14253
+Eight dedicated TryHackMe Entra rooms form a structured identity-security learning path.
 
-> Screenshot — 14th of September 2026.
+| Module | Topic and application | Lab notes |
+|---|---|---|
+| 01 | Identity platform fundamentals | [Introduction](MS-Entra-ID/01-MS-Entra-ID-Introduction/) |
+| 02 | User identities and directory objects | [Identities](MS-Entra-ID/02-MS-Entra-ID-Identities/) |
+| 03 | Hybrid directory and identity synchronization | [Hybrid Identities](MS-Entra-ID/03-MS-Entra-ID-Hybrid-Identities/) |
+| 04 | External and guest access | [External ID](MS-Entra-ID/04-MS-Entra-ID-External-ID/) |
+| 05 | Zero Trust identity principles | [Zero Trust](MS-Entra-ID/05-MS-Entra-ID-Zero-Trust/) |
+| 06 | MFA and authentication | [Authentication](MS-Entra-ID/06-MS-Entra-ID-Authentication/) |
+| 07 | Identity protection and risk controls | [Protection](MS-Entra-ID/07-MS-Entra-ID-Protection/) |
+| 08 | Governance and lifecycle controls | [Governance](MS-Entra-ID/08-MS-Entra-ID-Governance/) |
 
-## ✅ Completed TryHackMe Rooms — 83
+### From training to independent configuration
 
-### Microsoft Entra ID
+Selected Entra concepts were subsequently configured and documented in a separate Microsoft 365 Business Premium tenant. Those implementation results are distinct from TryHackMe's guided exercises:
 
-The Microsoft Entra ID series has become one of the main practical areas of this portfolio.
+[**Microsoft Entra practical portfolio →**](https://github.com/artiomcyber/Microsoft-Security/tree/main/01-Identity-and-Access)
 
-1. **MS Entra ID: Introduction**
-2. **MS Entra ID: Identities**
-3. **MS Entra ID: Hybrid Identities**
-4. **MS Entra ID: External ID**
-5. **MS Entra ID: Zero Trust**
-6. **MS Entra ID: Authentication**
-7. **MS Entra ID: Protection**
-8. **MS Entra ID: Governance**
+The Microsoft portfolio includes user/group administration, dynamic membership, external guests, password protection, SSPR, MFA and Conditional Access tested through Report-only/What If.
 
-Selected Entra rooms were expanded beyond the TryHackMe walkthroughs and recreated in my own Microsoft Entra tenant to practise administration, least privilege, authentication, Conditional Access, external identities, Identity Protection and governance in a real environment.
+## Supporting cybersecurity training
 
-Full write-ups and evidence are available under:
+| Area | What was studied | Record |
+|---|---|---|
+| **Windows and Active Directory** | Windows administration, PowerShell, AD basics, command line | [Room catalogue](ROOMS.md#windows--active-directory) |
+| **Networking and web** | DNS, HTTP, networking protocols, firewalls, Nmap | [Room catalogue](ROOMS.md#web-networking--infrastructure) |
+| **Security operations** | SOC triage, SIEM concepts, Sentinel, Splunk, Elastic, EDR, SOAR | [Room catalogue](ROOMS.md#soc-siem--blue-team) |
+| **Phishing and email threats** | Email analysis, suspicious indicators, defensive phishing exercises | [Room catalogue](ROOMS.md#phishing) |
+| **Linux, SQL and programming** | Linux CLI, shell basics, SQL, introductory programming | [Room catalogue](ROOMS.md#linux) |
 
-📁 [`MS-Entra-ID`](./MS-Entra-ID/)
----
+### Professional relevance
 
-### Security Engineering
+My focus is IAM and identity security: who has access, why access is allowed, how it is removed and how to identify misuse. Networking, directory services, scripting and incident analysis support the ability to troubleshoot identity issues and work with engineering and SOC teams.
 
-1. Security Engineer Intro
+**Evidence boundary:** Completing a TryHackMe room documents guided practical training. It is not equivalent to operating a corporate production system or completing independent deployment tests.
 
-### Web, Networking & Infrastructure
+## Navigation
 
-1. How Websites Work
-2. Putting it all together
-3. DNS in Detail
-4. HTTP in Detail
-5. What is Networking?
-6. Intro to LAN
-7. OSI Model
-8. Packets & Frames
-9. Extending Your Network
-10. Virtualisation Basics
-11. Client-Server Basics
-12. Networking Concepts
-13. Networking Essentials
-14. Networking Core Protocols
-15. Network Security
-16. Firewall Fundamentals
-17. Nmap: The Basics
-18. Cloud Computing Fundamentals
-
-### Computer, Operating System & Programming Fundamentals
-
-19. Inside a Computer System
-20. Computer Types
-21. Operating Systems: Introduction
-22. Operating System Security
-23. Data Representation
-24. Data Encoding
-25. JavaScript: Simple Demo
-26. Python: Simple Demo
-27. Database SQL Basics
-28. Search Skills
-
-### Linux
-
-29. Linux Fundamentals Part 1
-30. Linux Fundamentals Part 2
-31. Linux Fundamentals Part 3
-32. Linux CLI Basics
-33. Linux Shells
-
-### Windows & Active Directory
-
-34. Windows Basics
-35. Windows CLI Basics
-36. Windows Fundamentals 1
-37. Windows Fundamentals 2
-38. Windows Fundamentals 3
-39. Windows Command Line
-40. Windows PowerShell
-41. Active Directory Basics
-
-### Cybersecurity Fundamentals
-
-42. The CIA Triad
-43. Security Principles
-44. Cryptography Concepts
-45. Hashing Basics
-46. Offensive Security Intro
-47. Defensive Security Intro
-48. Become a Hacker
-49. Become a Defender
-50. Careers in Cyber
-51. Training Impact on Teams
-
-### SOC, SIEM & Blue Team
-
-52. Junior Security Analyst Intro
-53. SOC Fundamentals
-54. SOC L1 Alert Triage
-55. SOC L1 Alert Reporting
-56. SOC Workbooks and Lookups
-57. SOC Metrics and Objectives
-58. SOC Role in Blue Team
-59. Introduction to SIEM
-60. Elastic Stack: The Basics
-61. Splunk: The Basics
-62. MS Sentinel: Introduction
-63. Introduction to EDR
-64. Introduction to SOAR
-
-### Threats, Attacks & Detection
-
-65. Humans as Attack Vectors
-66. Systems as Attack Vectors
-67. Pyramid of Pain
-68. Moniker Link (CVE-2024-21413)
-
-### Phishing
-
-69. Phishing Analysis Fundamentals
-70. Phishing Analysis Tools
-71. Phishing Emails in Action
-72. Phishing Prevention
-73. The Greenholt Phish
-74. Snapped Phish-ing Line
+[Full room record](ROOMS.md) · [Microsoft Entra implementations](https://github.com/artiomcyber/Microsoft-Security) · [GRC exercises](https://github.com/artiomcyber/grc-projects) · [Forage simulations](https://github.com/artiomcyber/forage-cybersecurity-projects) · [GitHub profile](https://github.com/artiomcyber)
